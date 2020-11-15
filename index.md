@@ -6,7 +6,7 @@
 
 Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 :-------------------------:|:-------------------------:|:-------------------------:
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="200" width="200" style="border-radius:100%"></a> | <a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="200" width="200" style="border-radius:100%"></a> |<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="200" width="200" style="border-radius:100%"></a>
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="250" width="250" style="border-radius:100%"></a> | <a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="250" width="250" style="border-radius:100%"></a> |<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="250" width="250" style="border-radius:100%"></a>
 
 
 
