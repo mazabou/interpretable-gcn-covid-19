@@ -2,7 +2,7 @@
 
 ## Group Members
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="auto" width="300" style="border-radius:100%"></a>
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="auto" width="300" style="border-radius:200%"></a>
 
 <a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="auto" width="300" style="border-radius:100%"></a>
 
