@@ -6,6 +6,8 @@
 
 <a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="auto" width="300" style="border-radius:100%"></a>
 
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="auto" width="300" style="border-radius:100%"></a>
+
 
 You can use the [editor on GitHub](https://github.com/mazabou/interpretable-gcn-covid-19/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
