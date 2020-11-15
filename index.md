@@ -1,4 +1,4 @@
-# Finding the Factors that Contribute Most to the Spread of COVID-19 Inside and Among US Counties
+<center> # Finding the Factors that Contribute Most to the Spread of COVID-19 Inside and Among US Counties </center>
 
 ## Group Members
 
