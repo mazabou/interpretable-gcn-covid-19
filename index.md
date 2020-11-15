@@ -1,4 +1,11 @@
-## Finding the Factors that Contribute Most to the Spread of COVID-19 Inside and Among US Counties
+# Finding the Factors that Contribute Most to the Spread of COVID-19 Inside and Among US Counties
+
+## Group Members
+
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="auto" width="300" style="border-radius:100%"></a>
+
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="auto" width="300" style="border-radius:100%"></a>
+
 
 You can use the [editor on GitHub](https://github.com/mazabou/interpretable-gcn-covid-19/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -25,10 +32,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-![Tanya](https://drive.google.com/uc?export=view&id=14YbPjbIbCD7bAxjfEchq4ebxG1_hhKDe)<br>
-
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=14YbPjbIbCD7bAxjfEchq4ebxG1_hhKDe" height="auto" width="500" style="border-radius:100%"></a>
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
