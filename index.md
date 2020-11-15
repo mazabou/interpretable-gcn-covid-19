@@ -28,7 +28,7 @@ Syntax highlighted code block
 
 ![Tanya](https://drive.google.com/uc?export=view&id=14YbPjbIbCD7bAxjfEchq4ebxG1_hhKDe)<br>
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=14YbPjbIbCD7bAxjfEchq4ebxG1_hhKDe" height="auto" width="200" style="border-radius:50%"></a>
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=14YbPjbIbCD7bAxjfEchq4ebxG1_hhKDe" height="auto" width="500" style="border-radius:100%"></a>
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
