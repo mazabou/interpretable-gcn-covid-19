@@ -1,5 +1,7 @@
 <center> <h1> Finding the Factors that Contribute Most to the Spread of COVID-19 Inside and Among US Counties </h1> </center>
 
+<br>
+
 ## Group Members
 
 
@@ -9,14 +11,32 @@ Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 <a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="250" width="250" style="border-radius:100%"></a> | <a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="250" width="250" style="border-radius:100%"></a> |<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="250" width="250" style="border-radius:100%"></a>
 
 
+<br>
+
+## Summary of the Project
+
+## Results
+
+## Write Up
+
+Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
+
+## Presentation Slides
+
+## Software Tar-Ball Files
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/mazabou/interpretable-gcn-covid-19/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+
 
 ```markdown
 Syntax highlighted code block
@@ -35,14 +55,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mazabou/interpretable-gcn-covid-19/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
