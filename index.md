@@ -58,7 +58,8 @@ No unemployment features|  8.8e-3| 0.022
 
 
 
-# 
+# GNNExplainer
+
 We use GNNExplainer to identify compact subgraph structures and node features that play a crucial role in the graph network's predictions.
 
 We select a county and a day in which there is a spike in new cases or a change of slope in the number of total cases and try to understand what happened, or how the network was able to predict the spike.
@@ -67,13 +68,10 @@ First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can 
 
 <img src="https://drive.google.com/uc?export=view&id=1ViN4auTvnvs9G2wvYETlpZtK9ggyE7Dw" height="500" width="500">
 
-We run the GNNExplainer and get the results in the figure below. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in Figure~\ref{fig:counts}, but it does indicate where the cases might have came from. 
-
-
-
-
-<img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500">
+We run the GNNExplainer and get the results in the figure below. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
 <img src="https://drive.google.com/uc?export=view&id=17dGdf5pWeH00x16guj5CF06vgNGc7i8l" height="500" width="500">
+
+
 
 <img src="https://drive.google.com/uc?export=view&id=1OVgWCgTiDedlSDNeZ5slHIhEwqSnVUqO" height="500" width="500">
 <img src="https://drive.google.com/uc?export=view&id=1hET_XHg0Q8q1NxsPu6bAt_-yTFFooF9j" height="500" width="500">
