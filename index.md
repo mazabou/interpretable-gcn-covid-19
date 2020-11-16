@@ -11,6 +11,12 @@ Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 # Note
 Please open this website in Google Chrome or Firefox. Safari does not like the PDF embedding.
 
+# Abstract
+
+Accurately and quickly predicting case counts for any epidemic disease is a difficult problem with a wide variety of approaches, and having accurate counts would be extremely helpful in planning epidemic responses for a wide variety of stakeholders (public health officials, etc.). We decided to tackle COVID-19 case count prediction by improving on the performance of a spatio-temporal graph neural network model proposed by Kapoor et al., adding additional data features to the model to improve the performance, including more detailed data on mobility flow between counties, county-level population data, and county-level unemployment data. We were able to reduce the test RMSLE on the top 20 most populous counties from 0.0109 to 0.0080, and through a few ablation studies that we performed with the goal of finding out which features contribute most to the spread of COVID-19, we found that the mobility flow data is particularly significant to the predictions.
+
+
+
 # Summary of the Project
 
 The goal of this project was to determine the extent to which factors such as the presence/absence of shelter-in-place orders, socioeconomic status, and mobility patterns influence the spread of COVID-19 at the county level. We achieved this goal by: 
