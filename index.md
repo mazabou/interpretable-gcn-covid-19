@@ -69,7 +69,7 @@ First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can 
 <img src="https://drive.google.com/uc?export=view&id=1ViN4auTvnvs9G2wvYETlpZtK9ggyE7Dw" height="500" width="1000">
 
 We run the GNNExplainer and get the results in the figure below. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
-<img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ" height="1000" width="1000">
+<img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ">
 
 Another county that we consider, which has a higher case count than Crawford County, is Fort Bend County, Texas, which has a spike at the end of the month (Fgure 3). GNNExplainer (Figure 6) finds that there is some link to Fort Bend, which again might explain where this increase in cases is coming from.
 
