@@ -32,6 +32,15 @@ Kapoor et al.      |  0.0109
 Our Method |  0.0080
 
 
+
+<img src="https://drive.google.com/uc?export=view&id=1D78PTD228DiMz5RBLnVZUpFNqBRlU5jQ" height="500" width="500">
+<img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500">
+<img src="https://drive.google.com/uc?export=view&id=17dGdf5pWeH00x16guj5CF06vgNGc7i8l" height="500" width="500">
+
+<img src="https://drive.google.com/uc?export=view&id=1OVgWCgTiDedlSDNeZ5slHIhEwqSnVUqO" height="500" width="500">
+<img src="https://drive.google.com/uc?export=view&id=1hET_XHg0Q8q1NxsPu6bAt_-yTFFooF9j" height="500" width="500">
+
+
   . |  RMSLE (top 20) | RMSLE
 :-------------------------:|:-------------------------:|:-------------------------:
 Baseline      | 8.0e-3 | 0.013
