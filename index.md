@@ -32,7 +32,7 @@ Kapoor et al.      |  0.0109
 Our Method |  0.0080
 
 
-    |  RMSLE (top 20) | RMSLE
+|  RMSLE (top 20) | RMSLE
 :-------------------------:|:-------------------------:|:-------------------------:
 Baseline      | 8.0e-3 | 0.013
 No Edge Weights (Mobility Flow)      |  9.6e-3| 0.030
