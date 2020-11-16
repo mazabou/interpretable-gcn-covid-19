@@ -5,6 +5,8 @@ By modeling COVID-19 spread at the county level, we aim to disentangle the influ
 
 We will be implementing the Spatio-temporal graph network from [[1]](#1), using the [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric) framework.
 
+For GNNExplainer, we use the implementation that can be found [here](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html?highlight=gnnexplainer#torch_geometric.nn.models.GNNExplainer)
+
 #### Datasets
 - Google's Mobility dataset: [Link](https://www.google.com/covid19/mobility/)
 - UMD COVID-19 dataset: [Dashboard](https://data.covid.umd.edu)
@@ -21,11 +23,10 @@ Project Organization
 ------------
 
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   └── processed      <- The final, canonical data sets for modeling.
+    │   ├── train.npy       <- Train data
+    │   ├── test.npy        <- Test data
+    │   └── scripts      <- scripts to download and process data
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
@@ -33,34 +34,23 @@ Project Organization
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   ├── models         <- Scripts and notebooks to train models and then use trained models to make
+    │   │                     predictions
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
     │
     └── README.md          <- The top-level README for developers using this project.
-
 
 --------
 
