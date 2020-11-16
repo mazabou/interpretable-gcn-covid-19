@@ -13,8 +13,7 @@ Please open this website in Google Chrome or Firefox. Safari does not like the P
 
 # Abstract
 
-Accurately and quickly predicting case counts for any epidemic disease is a difficult problem with a wide variety of approaches, and having accurate counts would be extremely helpful in planning epidemic responses for a wide variety of stakeholders (public health officials, etc.). We decided to tackle COVID-19 case count prediction by improving on the performance of a spatio-temporal graph neural network model proposed by Kapoor et al., adding additional data features to the model to improve the performance, including more detailed data on mobility flow between counties, county-level population data, and county-level unemployment data. We were able to reduce the test RMSLE on the top 20 most populous counties from 0.0109 to 0.0080, and through a few ablation studies that we performed with the goal of finding out which features contribute most to the spread of COVID-19, we found that the mobility flow data is particularly significant to the predictions.
-
+Accurately and quickly predicting case counts for any epidemic disease is a difficult problem with a wide variety of approaches. Even harder is explaining how an outbreak took place and what the driving factor was. Being able to answer these questions would be extremely helpful in planning epidemic responses for a wide variety of stakeholders (public health officials, etc.). We decided to tackle COVID-19 case count prediction by improving on the performance of a spatio-temporal graph neural network model proposed by Kapoor et al. in \cite{kapoor2020examining}, adding additional data features to the model to improve the performance, including more detailed data on mobility flow between counties, county-level population data, and county-level unemployment data. We were able to reduce the test RMSLE on the top 20 most populous counties from 0.0109 to 0.0080, and through a few ablation studies that we performed with the goal of finding out which features contribute most to the spread of COVID-19. We finally use \cite{gnnexp} to closely study the dynamics of the spread within counties and between counties.
 
 
 # Summary of the Project
@@ -31,7 +30,7 @@ This project should be of significant interest to health professionals and publi
 
 ## Baselines
 
-<center>
+
 RMSLE      |  RMSLE (top 20)
 :-------------------------:|:-------------------------:
 ARIMA      | 0.0144
@@ -39,7 +38,7 @@ LSTM      |  0.0121
 Kapoor et al.      |  0.0109
 Our Method |  0.0080
   
-</center>
+
 
 We find that our extension outperforms the baselines as well as the network from Kapoor et al. We find that the RMSLE over all counties is higher, which is to be expected. However, examine the predicted new case counts for Fulton county for example, which can be seen in the figure below. While the prediction isn't fully accurate, we find that the network mostly overestimates the number of new cases.
 
