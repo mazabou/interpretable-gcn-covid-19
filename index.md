@@ -29,7 +29,7 @@ This project should be of significant interest to health professionals and publi
 
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
 
-<embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="900" height="1000" type="application/pdf" />
+<embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="850" height="1000" type="application/pdf" />
 
 ## Presentation Slides
 RN THIS IS AN EXAMPLE
