@@ -72,7 +72,7 @@ Below is a pdf of project. This write up contains these files in this listed ord
 
 <embed src="https://drive.google.com/uc?export=view&id=12PNpOvoD4lgpLfSDILGfqDpd_pG4OYe1" width="830" height="1000" type="application/pdf" />
 
-The report can also be found [here](https://github.com/mazabou/interpretable-gcn-covid-19/blob/main/docs/cse_8803_final_report.pdf)
+The report can also be found [here](https://drive.google.com/file/d/12PNpOvoD4lgpLfSDILGfqDpd_pG4OYe1/view?usp=sharing)
 
 # Presentation Slides
 
@@ -86,7 +86,7 @@ The report can also be found [here](https://github.com/mazabou/interpretable-gcn
 </div>
 
 
-The presentation can also be found [here](https://github.com/mazabou/interpretable-gcn-covid-19/blob/main/docs/Final%20Presentation.pdf)
+The presentation can also be found [here](https://drive.google.com/file/d/1dltT9LGUYloSAQ3zgTE9mPdnNS35cndU/view?usp=sharing)
 
 # Software Tar-Ball Files
 
