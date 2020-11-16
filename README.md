@@ -7,6 +7,8 @@ We will be implementing the Spatio-temporal graph network from [[1]](#1), using 
 
 For GNNExplainer, we use the implementation that can be found [here](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html?highlight=gnnexplainer#torch_geometric.nn.models.GNNExplainer)
 
+The `src/data` directory contains scripts that can be used to clean and pull the data given the necessary files that are described in our final project report. At the top of each file are variables that you can modify corresponding to the paths to the input and output files. They just depend on common pip/Anaconda packages and the C3ai COVID-19 Data Lake API code that can be downloaded from C3ai's website, which is linked in our final report.
+
 #### Datasets
 - Google's Mobility dataset: [Link](https://www.google.com/covid19/mobility/)
 - UMD COVID-19 dataset: [Dashboard](https://data.covid.umd.edu)
