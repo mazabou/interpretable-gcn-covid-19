@@ -42,8 +42,6 @@ Our Method |  0.0080
 
 We find that our extension outperforms the baselines as well as the network from Kapoor et al. We find that the RMSLE over all counties is higher, which is to be expected. However, examine the predicted new case counts for Fulton county for example, which can be seen in the figure below. While the prediction isn't fully accurate, we find that the network mostly overestimates the number of new cases.
 
-<center> <img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500"> </center> 
-
 ![](./images/FULTON.png)
 
 
@@ -68,7 +66,7 @@ We select a county and a day in which there is a spike in new cases or a change 
 
 First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can be seen in the figure below, there is a spike in the next day, which is also predicted by the network. Crawford County has a small number of cases, thus, we hypothesize that the spike in cases might come from an inflow of cases from neighboring counties. 
 
-<img src="https://drive.google.com/uc?export=view&id=1xTwUwHvVUwQ4joiqyZeoFWKXMd8axqeV" height="500" width="1000">
+![](./images/counts.png)
 
 We run the GNNExplainer and get the results in Figure 5. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
 <img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ">
@@ -82,6 +80,8 @@ In each of these experiments, we look at both node feature importance and edge i
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal. To download to your machine, please click on the folder with a down arrow (Firebox) or the down arrow (Chrome) in the grey ribbon on the top of PDF window.
 
 <embed src="https://drive.google.com/uc?export=view&id=12PNpOvoD4lgpLfSDILGfqDpd_pG4OYe1" width="830" height="1000" type="application/pdf" />
+
+The report can also be found [here](https://github.com/mazabou/interpretable-gcn-covid-19/blob/main/reports/cse_8803_final_report.pdf)
 
 # Presentation Slides
 RN THIS IS AN EXAMPLE
