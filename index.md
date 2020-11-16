@@ -1,4 +1,4 @@
-## Group Members
+# Group Members
 
 
 
@@ -9,7 +9,7 @@ Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 
 <br>
 
-## Summary of the Project
+# Summary of the Project
 
 The goal of this project was to determine the extent to which factors such as the presence/absence of shelter-in-place orders, socioeconomic status, and mobility patterns influence the spread of COVID-19 at the county level. We achieved this goal by: 
 1. Predicting case counts using a graph neural network model that takes into account the aforementioned factors 
@@ -19,9 +19,9 @@ The primary result we aimed for was a graph neural network that forecasts case c
 
 This project should be of significant interest to health professionals and public health officials. By understanding the factors that affect the transmission of COVID-19 within and between counties, better mitigation strategies can be put into place. A one-size-fits-all approach might not be the best course of action for certain areas. Awareness of the different factors that affect the infection rate at can help officials understand the efficacy of mobility restrictions and how to implement strategies that are best for both the citizens and the economy, helping save lives.
 
-## Results
+# Results
 
-## Write Up
+# Write Up
 
 THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
 
@@ -29,7 +29,7 @@ Below is a pdf of project. This write up contains these files in this listed ord
 
 <embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="830" height="1000" type="application/pdf" />
 
-## Presentation Slides
+# Presentation Slides
 RN THIS IS AN EXAMPLE
 
 <style>
@@ -41,7 +41,7 @@ RN THIS IS AN EXAMPLE
 <!-- Google embed ends -->
 </div>
 
-## Software Tar-Ball Files
+# Software Tar-Ball Files
 
 Please click [here][1] to access the software tar-ball file!
 
