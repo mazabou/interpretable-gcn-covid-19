@@ -23,6 +23,15 @@ This project should be of significant interest to health professionals and publi
 
 # Results
 
+
+RMSLE      |  RMSLE (top 20)
+:-------------------------:|:-------------------------:
+ARIMA      | 0.0144
+LSTM      |  0.0121
+Kapoor et al.      |  0.0109
+Our Method |  0.0080
+
+
 # Write Up
 
 THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
