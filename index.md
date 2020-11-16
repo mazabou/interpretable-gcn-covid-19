@@ -7,10 +7,6 @@ Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 <img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="250" width="250" style="border-radius:100%">|<img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="250" width="250" style="border-radius:100%">|<img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="250" width="250" style="border-radius:100%">
 
 
-<br>
-# Note
-Please open this website in Google Chrome or Firefox. Safari does not like the PDF embedding.
-
 # Abstract
 
 Accurately and quickly predicting case counts for any epidemic disease is a difficult problem with a wide variety of approaches. Even harder is explaining how an outbreak took place and what the driving factor was. Being able to answer these questions would be extremely helpful in planning epidemic responses for a wide variety of stakeholders (public health officials, etc.). We decided to tackle COVID-19 case count prediction by improving on the performance of a spatio-temporal graph neural network model proposed by Kapoor et al., adding additional data features to the model to improve the performance, including more detailed data on mobility flow between counties, county-level population data, and county-level unemployment data. We were able to reduce the test RMSLE on the top 20 most populous counties from 0.0109 to 0.0080, and through a few ablation studies that we performed with the goal of finding out which features contribute most to the spread of COVID-19. We finally use Ying et al. to closely study the dynamics of the spread within counties and between counties.
@@ -18,17 +14,18 @@ Accurately and quickly predicting case counts for any epidemic disease is a diff
 
 # Summary of the Project
 
-The goal of this project was to determine the extent to which factors such as the presence/absence of shelter-in-place orders, socioeconomic status, and mobility patterns influence the spread of COVID-19 at the county level. We achieved this goal by: 
-1. Predicting case counts using a graph neural network model that takes into account the aforementioned factors 
-2. Explaining the network's predictions by looking at neuron activations and identifying salient features causing COVID-19 spread
+The goal of this project was to have a performant and explainable network for COVID-19 case prediction. We aimed to make available to all stakeholders, a powerful tool that not only is capable of prediction but also of explaining why a breakout happened and what driving factors are behind a change in the spread dynamics. Using our proposed method for spatio-temporal graph networks, we leverage the graph structure to explicitly disentangle the within county spread and the between county spread. We also utilize a wide range of features to make our prediction.
+
+We achieved this goal by: 
+1. Aggregating and processing data from multiple sources, to build our train and test datasets.
+2. Predicting case counts using a graph neural network model that takes into account the aforementioned factors 
+3. Explaining the network's predictions by looking at node feature importance as well as messages passed along edges, and identifying salient features causing COVID-19 spread.
 
 The primary result we aimed for was a graph neural network that forecasts case counts, where the neural network’s input is a graph with a node for each county that contains data about case counts and all or some of the factors mentioned in the previous paragraph. If possible, we wanted to determine which individual factors are most significant while also finding the model that makes the best predictions.
 
 This project should be of significant interest to health professionals and public health officials. By understanding the factors that affect the transmission of COVID-19 within and between counties, better mitigation strategies can be put into place. A one-size-fits-all approach might not be the best course of action for certain areas. Awareness of the different factors that affect the infection rate at can help officials understand the efficacy of mobility restrictions and how to implement strategies that are best for both the citizens and the economy, helping save lives.
 
 # Results
-
-## Baselines
 
 
 RMSLE      |  RMSLE (top 20)
@@ -37,12 +34,8 @@ ARIMA      | 0.0144
 LSTM      |  0.0121
 Kapoor et al.      |  0.0109
 Our Method |  0.0080
-  
 
-
-We find that our extension outperforms the baselines as well as the network from Kapoor et al. We find that the RMSLE over all counties is higher, which is to be expected. However, examine the predicted new case counts for Fulton county for example, which can be seen in the figure below. While the prediction isn't fully accurate, we find that the network mostly overestimates the number of new cases.
-
-![](./images/FULTON.png)
+We find that our extension outperforms the baselines as well as the network from Kapoor et al. We find that the RMSLE over all counties is higher.
 
 
 #  Ablation studies
@@ -57,9 +50,7 @@ No Population Features      | 7.7e-3| 0.028
 No unemployment features|  8.8e-3| 0.022
 
 
-
 # GNNExplainer
-
 We use GNNExplainer to identify compact subgraph structures and node features that play a crucial role in the graph network's predictions.
 
 We select a county and a day in which there is a spike in new cases or a change of slope in the number of total cases and try to understand what happened, or how the network was able to predict the spike.
@@ -84,7 +75,6 @@ Below is a pdf of project. This write up contains these files in this listed ord
 The report can also be found [here](https://github.com/mazabou/interpretable-gcn-covid-19/blob/main/reports/cse_8803_final_report.pdf)
 
 # Presentation Slides
-RN THIS IS AN EXAMPLE
 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
