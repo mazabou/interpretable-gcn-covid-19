@@ -57,7 +57,7 @@ We select a county and a day in which there is a spike in new cases or a change 
 
 First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can be seen in the figure below, there is a spike in the next day, which is also predicted by the network. Crawford County has a small number of cases, thus, we hypothesize that the spike in cases might come from an inflow of cases from neighboring counties. 
 
-![](./images/counts.png)
+<img src="https://drive.google.com/uc?export=view&id=1xTwUwHvVUwQ4joiqyZeoFWKXMd8axqeV">
 
 We run the GNNExplainer and get the results in Figure 5. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
 <img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ">
