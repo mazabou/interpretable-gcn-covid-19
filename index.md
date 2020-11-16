@@ -45,9 +45,30 @@ We find that our extension outperforms the baselines as well as the network from
 <center> <img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500"> </center> 
 
 
+#  Ablation studies
+
+As one method of attempting to interpret the predictions of our model, we did a couple of ablation studies. For each ablation study, we removed a particular predictor variable or some set of predictor variables from the model, trained the network with the partial dataset, and compared the testing results to those of the network trained with all of the predictor variables, the idea being that if one of the networks from the ablation studies performs worse than the network that had access to all of the data, it indicates that the variable(s) removed during the corresponding ablation study are significant to the predictions and important for us to pay attention to in real life. We performed three ablation studies: one where we removed the mobility flow data, one where we removed the two population-related features, and one where we removed the unemployment-related features. The results are summarized in the table below, the takeaway being that all of the features we tried removing are significant to the predictions. Taking any of the features away increased the RMSLE by around 200-300\%. Specifically, we can see that at least on the top 20 most populous counties, the network performed better without the population features and that the mobility flow data looks to be particularly significant to the predictions among the features we looked at in the ablation studies.
+
+  . |  RMSLE (top 20) | RMSLE
+:-------------------------:|:-------------------------:|:-------------------------:
+Baseline      | 8.0e-3 | 0.013
+No Edge Weights (Mobility Flow)      |  9.6e-3| 0.030
+No Population Features      | 7.7e-3| 0.028
+No unemployment features|  8.8e-3| 0.022
 
 
-<img src="https://drive.google.com/uc?export=view&id=1D78PTD228DiMz5RBLnVZUpFNqBRlU5jQ" height="500" width="500">
+
+# 
+We use GNNExplainer to identify compact subgraph structures and node features that play a crucial role in the graph network's predictions.
+
+We select a county and a day in which there is a spike in new cases or a change of slope in the number of total cases and try to understand what happened, or how the network was able to predict the spike.
+
+First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can be seen in the figure below, there is a spike in the next day, which is also predicted by the network. Crawford County has a small number of cases, thus, we hypothesize that the spike in cases might come from an inflow of cases from neighboring counties. W
+
+<img src="https://drive.google.com/uc?export=view&id=1ViN4auTvnvs9G2wvYETlpZtK9ggyE7Dw" height="500" width="500">
+
+We run the GNNExplainer and get the results in the figure below. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in Figure~\ref{fig:counts}, but it does indicate where the cases might have came from. 
+
 
 
 
@@ -58,12 +79,7 @@ We find that our extension outperforms the baselines as well as the network from
 <img src="https://drive.google.com/uc?export=view&id=1hET_XHg0Q8q1NxsPu6bAt_-yTFFooF9j" height="500" width="500">
 
 
-  . |  RMSLE (top 20) | RMSLE
-:-------------------------:|:-------------------------:|:-------------------------:
-Baseline      | 8.0e-3 | 0.013
-No Edge Weights (Mobility Flow)      |  9.6e-3| 0.030
-No Population Features      | 7.7e-3| 0.028
-No unemployment features|  8.8e-3| 0.022
+
 
 
 
