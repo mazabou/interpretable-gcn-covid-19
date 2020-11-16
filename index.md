@@ -31,16 +31,19 @@ This project should be of significant interest to health professionals and publi
 
 ## Baselines
 
+<center>
 RMSLE      |  RMSLE (top 20)
 :-------------------------:|:-------------------------:
 ARIMA      | 0.0144
 LSTM      |  0.0121
 Kapoor et al.      |  0.0109
 Our Method |  0.0080
+  
+</center>
 
 We find that our extension outperforms the baselines as well as the network from Kapoor et al. We find that the RMSLE over all counties is higher, which is to be expected. However, examine the predicted new case counts for Fulton county for example, which can be seen in the figure below. While the prediction isn't fully accurate, we find that the network mostly overestimates the number of new cases.
 
-<img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500">
+<center> <img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500"> </center> 
 
 
 
