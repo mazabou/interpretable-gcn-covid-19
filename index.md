@@ -27,6 +27,8 @@ This project should be of significant interest to health professionals and publi
 
 ## Write Up
 
+THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
+
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
 
 <embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="830" height="1000" type="application/pdf" />
@@ -44,3 +46,7 @@ RN THIS IS AN EXAMPLE
 </div>
 
 ## Software Tar-Ball Files
+
+Please click [here][1] to access the software tar-ball file!
+
+[1] {{https://drive.google.com/file/d/1vNLJViY4Ps0ttdKRio96LCN8xvxVYypU/view?usp=sharing}}/download/CHURAMAN.tgz
