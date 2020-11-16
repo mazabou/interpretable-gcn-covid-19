@@ -71,7 +71,7 @@ First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can 
 We run the GNNExplainer and get the results in Figure 5. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
 <img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ">
 
-Another county that we consider, which has a higher case count than Crawford County, is Fort Bend County, Texas, which has a spike at the end of the month (Fgure 3). GNNExplainer (Figure 6) finds that there is some link to Fort Bend, which again might explain where this increase in cases is coming from.
+Another county that we consider, which has a higher case count than Crawford County, is Fort Bend County, Texas, which has a spike at the end of the month (Figure 4). GNNExplainer (Figure 6) finds that there is some link to Fort Bend, which again might explain where this increase in cases is coming from.
 
 In each of these experiments, we look at both node feature importance and edge importance, and in both, we find that edges are more important, so they might be the leading factor for spread. Now we look at a more populous county: LA County. We interestingly find that edge importance is very low, while in terms of nodes, we find that both unemployment rates and previous day case count are most important, with importance scores over 0.8. The unemployment rate in LA is around 20\%, which is higher than the national average. We suspect that the unemployment rate is just correlated with the case count, but it is not clear that it is a driving factor for COVID-19 spread. Unfortunately, no further experiments were conducted to analyse this further.
 
@@ -82,7 +82,7 @@ THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
 
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal. To download to your machine, please click on the folder with a down arrow (Firebox) or the down arrow (Chrome) in the grey ribbon on the top of PDF window.
 
-<embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="830" height="1000" type="application/pdf" />
+<embed src="https://drive.google.com/uc?export=view&id=12PNpOvoD4lgpLfSDILGfqDpd_pG4OYe1" width="830" height="1000" type="application/pdf" />
 
 # Presentation Slides
 RN THIS IS AN EXAMPLE
@@ -92,7 +92,7 @@ RN THIS IS AN EXAMPLE
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-  <iframe src="https://docs.google.com/presentation/d/1F0DQTNPg3YG_By6LMGcgwT3icJ3eMhCiupAZm76CIfE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vStssGyxLyjnatnU2wW8r-wXMsNyTNnbNDHuNwOZ99V4WUaCBqOqTW81wgO1bm9nxUKcS5WTITCMDVz/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 
