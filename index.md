@@ -8,6 +8,8 @@ Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 
 
 <br>
+# Note
+Please open this website in Google Chrome or Firefox. Safari does not like the PDF embedding.
 
 # Summary of the Project
 
@@ -25,7 +27,7 @@ This project should be of significant interest to health professionals and publi
 
 THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
 
-Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
+Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal. To download to your machine, please click on the folder with a down arrow (Firebox) or the down arrow (Chrome) in the grey ribbon on the top of PDF window.
 
 <embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="830" height="1000" type="application/pdf" />
 
