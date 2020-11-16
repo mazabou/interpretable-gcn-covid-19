@@ -66,20 +66,14 @@ We select a county and a day in which there is a spike in new cases or a change 
 
 First, we look at Crawford County, Wisconsin, on day 20 of the test set. As can be seen in the figure below, there is a spike in the next day, which is also predicted by the network. Crawford County has a small number of cases, thus, we hypothesize that the spike in cases might come from an inflow of cases from neighboring counties. 
 
-<img src="https://drive.google.com/uc?export=view&id=1ViN4auTvnvs9G2wvYETlpZtK9ggyE7Dw" height="500" width="1000">
+<img src="https://drive.google.com/uc?export=view&id=1xTwUwHvVUwQ4joiqyZeoFWKXMd8axqeV" height="500" width="1000">
 
 We run the GNNExplainer and get the results in Figure 5. We find that indeed a lot of graph neighbors (2 counties in Oklahoma, 1 county in Texas) are contributing to the network's decision. This observation does not mean that the spike is specifically due to these counties. These counties might just be correlated in their dynamics as we can see in the figure above, but it does indicate where the cases might have came from. 
 <img src="https://drive.google.com/uc?export=view&id=1m4pGsLAZHlCVRai6VRmPgWAz-Ihi3eKZ">
 
 Another county that we consider, which has a higher case count than Crawford County, is Fort Bend County, Texas, which has a spike at the end of the month (Fgure 3). GNNExplainer (Figure 6) finds that there is some link to Fort Bend, which again might explain where this increase in cases is coming from.
 
-
-<img src="https://drive.google.com/uc?export=view&id=1OVgWCgTiDedlSDNeZ5slHIhEwqSnVUqO" height="500" width="500">
-<img src="https://drive.google.com/uc?export=view&id=1hET_XHg0Q8q1NxsPu6bAt_-yTFFooF9j" height="500" width="500">
-
-
-
-
+In each of these experiments, we look at both node feature importance and edge importance, and in both, we find that edges are more important, so they might be the leading factor for spread. Now we look at a more populous county: LA County. We interestingly find that edge importance is very low, while in terms of nodes, we find that both unemployment rates and previous day case count are most important, with importance scores over 0.8. The unemployment rate in LA is around 20\%, which is higher than the national average. We suspect that the unemployment rate is just correlated with the case count, but it is not clear that it is a driving factor for COVID-19 spread. Unfortunately, no further experiments were conducted to analyse this further.
 
 
 # Write Up
