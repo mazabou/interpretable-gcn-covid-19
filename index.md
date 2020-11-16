@@ -29,7 +29,7 @@ This project should be of significant interest to health professionals and publi
 
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
 
-<img src="CSE_8803_Milestone_Report.pdf alt="">
+<a href="url"><img src="CSE_8803_Milestone_Report.pdf alt=""></a>
 
 ## Presentation Slides
 RN THIS IS AN EXAMPLE
