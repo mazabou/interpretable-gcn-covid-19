@@ -8,7 +8,7 @@
 
 Mehdi Azabou         |  Tanya Churaman | Kipp Morris
 :-------------------------:|:-------------------------:|:-------------------------:
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="250" width="250" style="border-radius:100%"></a> | <a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="250" width="250" style="border-radius:100%"></a> |<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="250" width="250" style="border-radius:100%"></a>
+<img src="https://drive.google.com/uc?export=view&id=1q9gtLcnP81Lxkf1nyHM2ygtYpChmGVU5" height="250" width="250" style="border-radius:100%">| <a href="url"><img src="https://drive.google.com/uc?export=view&id=1FOfCCVC0A9bwYVDHKnVr5QndiebH69ov" height="250" width="250" style="border-radius:100%"></a> |<a href="url"><img src="https://drive.google.com/uc?export=view&id=1dKFfOWe4ZPOAA9E0sqG1KVuXBiwsSnb0" height="250" width="250" style="border-radius:100%"></a>
 
 
 <br>
@@ -29,7 +29,7 @@ This project should be of significant interest to health professionals and publi
 
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal
 
-<embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="825" height="1000" type="application/pdf" />
+<embed src="https://drive.google.com/uc?export=view&id=14WHRuNXix59hUl6IjyApXOXoBZPknGo7" width="830" height="1000" type="application/pdf" />
 
 ## Presentation Slides
 RN THIS IS AN EXAMPLE
