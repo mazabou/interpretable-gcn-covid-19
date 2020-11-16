@@ -44,6 +44,8 @@ We find that our extension outperforms the baselines as well as the network from
 
 <center> <img src="https://drive.google.com/uc?export=view&id=1nG3W63fMmOwErLE4_-OhetogeT3iRIgv" height="500" width="500"> </center> 
 
+![](./images/FULTON.png)
+
 
 #  Ablation studies
 
