@@ -77,9 +77,6 @@ In each of these experiments, we look at both node feature importance and edge i
 
 
 # Write Up
-
-THIS IS OUR MIDTERM REPORT AND SERVES AS A PLACEHOLDER
-
 Below is a pdf of project. This write up contains these files in this listed order: Final Report, Milestone Report, Proposal. To download to your machine, please click on the folder with a down arrow (Firebox) or the down arrow (Chrome) in the grey ribbon on the top of PDF window.
 
 <embed src="https://drive.google.com/uc?export=view&id=12PNpOvoD4lgpLfSDILGfqDpd_pG4OYe1" width="830" height="1000" type="application/pdf" />
@@ -92,7 +89,7 @@ RN THIS IS AN EXAMPLE
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vStssGyxLyjnatnU2wW8r-wXMsNyTNnbNDHuNwOZ99V4WUaCBqOqTW81wgO1bm9nxUKcS5WTITCMDVz/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vStssGyxLyjnatnU2wW8r-wXMsNyTNnbNDHuNwOZ99V4WUaCBqOqTW81wgO1bm9nxUKcS5WTITCMDVz/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 
