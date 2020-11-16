@@ -17,7 +17,7 @@ The `src/data` directory contains scripts that can be used to clean and pull the
 - Delphi Covidcast API: [API documentation](https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html)
 
 
-### Experiments
+### How to run Experiments
 First experiment is training the network to predict new case counts: For training the network, refer to `src/models/train.ipynb`. We instantiate the dataset to load data and build graphs in `src/models/dataset.py` and define all the building blocks for the network in `src/models/st_gnn.py`. A trained model can be found in `models`.
 
 Second experiment is for explaining the network's prediction, please refer to `src/models/gcn_explanation.ipynb`
@@ -35,28 +35,19 @@ Project Organization
     │   ├── test.npy        <- Test data
     │   └── scripts      <- scripts to download and process data
     │
-    │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── docs            <- Report and presentation.
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
     │   ├── data           <- Scripts to download or generate data
     │   │
     │   ├── models         <- Scripts and notebooks to train models and then use trained models to make
-    │   │                     predictions
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │                         predictions
+    │   
     │
     └── README.md          <- The top-level README for developers using this project.
 
