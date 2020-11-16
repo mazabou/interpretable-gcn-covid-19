@@ -90,6 +90,6 @@ The presentation can also be found [here](https://drive.google.com/file/d/1dltT9
 
 # Software Tar-Ball Files
 
-Please click [here][https://drive.google.com/file/d/15Zi-Yt5gvaIiQ0C5KaLl8sT5rg53zJhG/view?usp=sharing] to access the software tar-ball file!
+Please click [here](https://drive.google.com/file/d/15Zi-Yt5gvaIiQ0C5KaLl8sT5rg53zJhG/view?usp=sharing) to access the software tar-ball file!
 
 
