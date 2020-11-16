@@ -45,4 +45,4 @@ RN THIS IS AN EXAMPLE
 
 Please click [here][1] to access the software tar-ball file!
 
-[1] {{https://drive.google.com/file/d/1vNLJViY4Ps0ttdKRio96LCN8xvxVYypU/view?usp=sharing}}/download/CHURAMAN.tgz
+[1]:{{https://drive.google.com/file/d/1vNLJViY4Ps0ttdKRio96LCN8xvxVYypU/view?usp=sharing}}/download/CHURAMAN.tgz}}
