@@ -1,0 +1,72 @@
+import torch
+from torch.nn import Sequential as Seq, Linear, ReLU
+from torch_geometric.nn import MessagePassing
+
+
+class SpatioTemporalGCN(torch.nn.Module):
+    def __init__(self, num_temp_features, num_static_features, d=7):
+        super().__init__()
+        self.temp_conv = TempConv(num_temp_features * d + num_static_features, 32, 32)
+        self.space_conv_1 = SpaceConv(32 + num_static_features, 32, 64)
+        self.space_conv_2 = SpaceConv(64 + 32 + num_static_features, 64, 64)
+        self.mlp = PredictLayer(64 + 32 + num_static_features, 16, 1)
+
+    def forward(self, data):
+        x, sx, edge_index, edge_attr = data.x, data.sx, data.edge_index, data.edge_attr
+        
+        # temporal embeddings
+        x_embed = torch.cat([x, sx], dim=-1)
+        x_0 = self.temp_conv(x_embed)
+
+        x_embed = torch.cat([x_0, sx], dim=-1)
+        out = self.space_conv_1(x_embed, edge_attr, edge_index)
+
+        x_embed = torch.cat([out, x_0, sx], dim=-1)
+        out = self.space_conv_2(x_embed, edge_attr, edge_index)
+
+        # readout
+        x_embed = torch.cat([out, x_0, sx], dim=-1)
+        out = self.mlp(x_embed)
+
+        # num_counties x 1
+        return out
+
+
+class TempConv(torch.nn.Module):
+    def __init__(self, in_channels, hidden_channels, out_channels):
+        super().__init__()
+        self.mlp = Seq(Linear(in_channels, hidden_channels),
+                       ReLU(),
+                       Linear(hidden_channels, out_channels),
+                       ReLU())
+
+    def forward(self, x):
+        x_embed = self.mlp(x)
+        return x_embed
+
+
+class SpaceConv(MessagePassing):
+    def __init__(self, in_channels, hidden_channels, out_channels, aggr="add"):
+        super().__init__(aggr=aggr)
+        self.mlp = Seq(Linear(in_channels, hidden_channels),
+                       ReLU(),
+                       Linear(hidden_channels, out_channels))
+
+    def forward(self, x, edge_attr, edge_index):
+        return self.propagate(edge_index, x=x, edge_attr=edge_attr)
+
+    def message(self, x_j, edge_attr):
+        msg = self.mlp(x_j)
+        msg = edge_attr.view(-1, 1).expand_as(msg) * msg
+        return msg
+
+
+class PredictLayer(torch.nn.Module):
+    def __init__(self, in_channels, hidden_channels, out_channels):
+        super().__init__()
+        self.mlp = Seq(Linear(in_channels, hidden_channels),
+                       ReLU(),
+                       Linear(hidden_channels, out_channels))
+
+    def forward(self, x):
+        return self.mlp(x)
